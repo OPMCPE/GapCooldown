@@ -7,3 +7,7 @@ Let me tell you. Basically when a player consumes an Enchanted Golden Apple(A.K.
 # To Do
 - [ ] Add regular Golden apple
 - [ ] Config for time consume
+
+# Where to Download?
+
+You can download it [Here](https://poggit.pmmp.io/ci/BigDGucci/GapCooldown).
