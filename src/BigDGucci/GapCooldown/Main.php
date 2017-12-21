@@ -8,7 +8,7 @@ use pocketmine\event\player\PlayerItemConsumeEvent;
 
 class Main extends PluginBase implements Listener {
     
-   private function $cooldownArray = array();
+   private cooldownArray = array();
    }
     
       public function onEnable(){
