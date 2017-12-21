@@ -1,6 +1,6 @@
 <?php
 
-namespace BigDGucci/GapCooldown;
+namespace BigDGucci\GapCooldown;
 
 use pocketmine\plugin\PluginBase;
 
