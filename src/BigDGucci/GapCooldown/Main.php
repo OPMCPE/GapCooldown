@@ -20,7 +20,7 @@ class Main extends PluginBase implements Listener {
        $this->getLogger()->info("GapCooldown By BigDGucci Disabled!");
    }  
 
-   public function onConsume(PlayerItemConsumeEvent $event); {
+   public function onConsume(PlayerItemConsumeEvent $event) {
        if($event->getItem()->getId() === Item::ENCHANTED_GOLDEN_APPLE) {
        //using isset may be unneccesary.
           if(isset($this->cooldownArray[$event->getPlayer()->getName()]) && $this->cooldownArray[$event->getPlayer()->getName()] - time() < 60) {
