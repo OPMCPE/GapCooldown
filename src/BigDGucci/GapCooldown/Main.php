@@ -4,7 +4,6 @@ namespace BigDGucci\GapCooldown;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\plugin\Plugin;
-
 use pocketmine\event\player\PlayerItemConsumeEvent;
 
 class Main extends PluginBase implements Listener {
