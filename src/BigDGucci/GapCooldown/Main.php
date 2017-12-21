@@ -22,7 +22,7 @@ class Main extends PluginBase implements Listener {
       public function onConsume(PlayerItemConsumeEvent $event){
           if($event->getItem()->getId() === Item::ENCHANTED_GOLDEN_APPLE){
           //using isset may be unneccesary.
-             if(isset($this->cooldownArray[$event->getPlayer()->getName()]) && $this->cooldownArray[$event->getPlayer()->getName()] - time() < 60) {
+             if($this->cooldownArray[$event->getPlayer()->getName()]) && $this->cooldownArray[$event->getPlayer()->getName()] - time() < 60) {
              //Player ate a Golden Apple within the last 60 seconds
              $event->setCancelled();
              }else{
